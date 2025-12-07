@@ -1,7 +1,7 @@
 package utils;
 
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 public class configReader {
@@ -9,8 +9,16 @@ public class configReader {
 	public static Properties initProp() {
 		properties = new Properties();
 		try {
-			FileInputStream fis = new FileInputStream("E:\\eclipse-workspace\\PayFuture\\com.soucedemo.ui\\src\\test\\resources\\config.properties");
+			InputStream fis = null;
+			try {
+				fis = configReader.class.getClassLoader().getResourceAsStream("config.properties");
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			if (fis != null) {
 			properties.load(fis);
+			}
 		} catch(IOException e) {
 			e.printStackTrace();
 		}

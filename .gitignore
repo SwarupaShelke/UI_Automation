@@ -1,0 +1,18 @@
+# Maven build folder
+target/
+
+# TestNG reports / Selenium test output
+test-output/
+
+# Eclipse files
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ files (if using IntelliJ)
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
