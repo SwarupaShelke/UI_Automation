@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-07T16:26:23 IST" name="POM Test Suite" finished-at="2025-12-07T16:26:36 IST" duration-ms="12648">
+    <groups>
+    </groups>
+    <test started-at="2025-12-07T16:26:23 IST" name="Sample Test" finished-at="2025-12-07T16:26:36 IST" duration-ms="12648">
+      <class name="com.soucedemo.ui.LoginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.soucedemo.ui.LoginTest@38d8f54a]" started-at="2025-12-07T16:26:24 IST" name="SetUp" finished-at="2025-12-07T16:26:29 IST" duration-ms="5105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="PageSetUP()[pri:0, instance:com.soucedemo.ui.LoginTest@38d8f54a]" started-at="2025-12-07T16:26:29 IST" name="PageSetUP" finished-at="2025-12-07T16:26:29 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageSetUP -->
+        <test-method signature="eneTest()[pri:0, instance:com.soucedemo.ui.LoginTest@38d8f54a]" started-at="2025-12-07T16:26:29 IST" name="eneTest" finished-at="2025-12-07T16:26:31 IST" duration-ms="2289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eneTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.soucedemo.ui.LoginTest@38d8f54a]" started-at="2025-12-07T16:26:31 IST" name="tearDown" finished-at="2025-12-07T16:26:31 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.soucedemo.ui.LoginTest@38d8f54a]" started-at="2025-12-07T16:26:31 IST" name="SetUp" finished-at="2025-12-07T16:26:35 IST" duration-ms="3784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="PageSetUP()[pri:0, instance:com.soucedemo.ui.LoginTest@38d8f54a]" started-at="2025-12-07T16:26:35 IST" name="PageSetUP" finished-at="2025-12-07T16:26:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageSetUP -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.soucedemo.ui.LoginTest@38d8f54a]" started-at="2025-12-07T16:26:35 IST" name="invalidLoginTest" finished-at="2025-12-07T16:26:36 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.soucedemo.ui.LoginTest@38d8f54a]" started-at="2025-12-07T16:26:36 IST" name="tearDown" finished-at="2025-12-07T16:26:36 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.soucedemo.ui.LoginTest -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- POM Test Suite -->
+</testng-results>
