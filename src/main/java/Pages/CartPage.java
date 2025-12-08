@@ -1,7 +1,11 @@
 package Pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utils.waitUtils;
@@ -25,8 +29,11 @@ public class CartPage extends waitUtils{
 	}
 	
 	public void clickCheckout() throws InterruptedException {
-		//waitUtils.clickability(checkout_button);
-		Thread.sleep(100000);
-		driver.findElement(checkout_button).click();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(90));
+		WebElement checkoutButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("checkout")));
+		checkoutButton.click();
+		/*
+		 * Thread.sleep(100000); driver.findElement(checkout_button).click();
+		 */
 	}
 }
