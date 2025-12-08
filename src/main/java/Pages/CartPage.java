@@ -25,7 +25,7 @@ public class CartPage extends waitUtils{
 	}
 	
 	public void clickCheckout() throws InterruptedException {
-		waitUtils.clickability(checkout_button);
+		//waitUtils.clickability(checkout_button);
 		Thread.sleep(10000);
 		driver.findElement(checkout_button).click();
 	}
