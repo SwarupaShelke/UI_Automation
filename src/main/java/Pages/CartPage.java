@@ -12,7 +12,7 @@ public class CartPage extends waitUtils{
 	
 	
 	By cart_Icon = By.cssSelector("a.shopping_cart_link");
-	By checkout_button = By.cssSelector("button.checkout_button");
+	By checkout_button = By.id("checkout");
 	
 	
 	public CartPage(WebDriver driver) {
@@ -26,7 +26,7 @@ public class CartPage extends waitUtils{
 	
 	public void clickCheckout() throws InterruptedException {
 		waitUtils.clickability(checkout_button);
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		driver.findElement(checkout_button).click();
 	}
 }
