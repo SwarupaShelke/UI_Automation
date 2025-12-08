@@ -14,6 +14,15 @@ jobs:
     # Step 1: Checkout the code
     - name: Checkout repository
       uses: actions/checkout@v3
+	  
+	  - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install ChromeDriver
+        uses: nanasess/setup-chromedriver@v2
+
+      - name: Install dependencies
+        run: sudo apt-get install -y libnss3 libgbm1 libxss1 libasound2
 
     # Step 2: Set up Java
     - name: Set up JDK 17

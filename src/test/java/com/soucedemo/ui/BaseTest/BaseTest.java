@@ -20,11 +20,15 @@ public class BaseTest {
 		configReader.initProp();
 		
 		String url = configReader.getProperty("baseURL");
-		ChromeOptions option =new ChromeOptions();
-		option.addArguments("--headless=new");
-		option.addArguments("--no-sandbox");
-		option.addArguments("--disable-dev-shm-usage");
-		driver= new ChromeDriver(option);
+		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless=new");
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--disable-gpu");
+		options.addArguments("--window-size=1920,1080");
+
+		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get(url);
 	}
