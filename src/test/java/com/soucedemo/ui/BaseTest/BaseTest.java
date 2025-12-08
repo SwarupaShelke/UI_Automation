@@ -25,16 +25,16 @@ public class BaseTest {
 		
 		String url = configReader.getProperty("baseURL");
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		/*
-		 * ChromeOptions options = new ChromeOptions();
-		 * options.addArguments("--headless=new"); options.addArguments("--no-sandbox");
-		 * options.addArguments("--disable-dev-shm-usage");
-		 * options.addArguments("--disable-gpu");
-		 * options.addArguments("--window-size=1920,1080");
-		 * 
-		 * driver = new ChromeDriver(options);
-		 */
-		driver =new EdgeDriver();
+		
+		  ChromeOptions options = new ChromeOptions();
+		  options.addArguments("--headless=new"); options.addArguments("--no-sandbox");
+		  options.addArguments("--disable-dev-shm-usage");
+		  options.addArguments("--disable-gpu");
+		  options.addArguments("--window-size=1920,1080");
+		  
+		  driver = new ChromeDriver(options);
+		 
+		//driver =new EdgeDriver();
 		utils.waitUtils.wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 		driver.get(url);
