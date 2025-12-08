@@ -5,8 +5,8 @@
     <classes>
       <class name="com.soucedemo.ui.LoginTest">
         <methods>
-          <include name="PageSetUP"/>
           <include name="eneTest"/>
+          <include name="PageSetUP"/>
           <include name="tearDown"/>
           <include name="SetUp"/>
         </methods>

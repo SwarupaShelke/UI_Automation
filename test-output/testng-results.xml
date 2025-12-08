@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-08T22:58:50 IST" name="Default suite" finished-at="2025-12-08T22:59:05 IST" duration-ms="14479">
+  <suite started-at="2025-12-08T23:18:12 IST" name="Default suite" finished-at="2025-12-08T23:18:21 IST" duration-ms="9153">
     <groups>
     </groups>
-    <test started-at="2025-12-08T22:58:50 IST" name="Default test" finished-at="2025-12-08T22:59:05 IST" duration-ms="14479">
+    <test started-at="2025-12-08T23:18:12 IST" name="Default test" finished-at="2025-12-08T23:18:21 IST" duration-ms="9153">
       <class name="com.soucedemo.ui.LoginTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.soucedemo.ui.LoginTest@179ece50]" started-at="2025-12-08T22:58:50 IST" name="SetUp" finished-at="2025-12-08T22:58:56 IST" duration-ms="5803" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.soucedemo.ui.LoginTest@3d285d7e]" started-at="2025-12-08T23:18:12 IST" name="SetUp" finished-at="2025-12-08T23:18:15 IST" duration-ms="3315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="PageSetUP()[pri:0, instance:com.soucedemo.ui.LoginTest@179ece50]" started-at="2025-12-08T22:58:56 IST" name="PageSetUP" finished-at="2025-12-08T22:58:56 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="PageSetUP()[pri:0, instance:com.soucedemo.ui.LoginTest@3d285d7e]" started-at="2025-12-08T23:18:15 IST" name="PageSetUP" finished-at="2025-12-08T23:18:15 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageSetUP -->
-        <test-method signature="eneTest()[pri:0, instance:com.soucedemo.ui.LoginTest@179ece50]" started-at="2025-12-08T22:58:56 IST" name="eneTest" finished-at="2025-12-08T22:58:59 IST" duration-ms="2904" status="PASS">
+        <test-method signature="eneTest()[pri:0, instance:com.soucedemo.ui.LoginTest@3d285d7e]" started-at="2025-12-08T23:18:15 IST" name="eneTest" finished-at="2025-12-08T23:18:17 IST" duration-ms="2216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eneTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.soucedemo.ui.LoginTest@179ece50]" started-at="2025-12-08T22:58:59 IST" name="tearDown" finished-at="2025-12-08T22:58:59 IST" duration-ms="429" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.soucedemo.ui.LoginTest@3d285d7e]" started-at="2025-12-08T23:18:17 IST" name="tearDown" finished-at="2025-12-08T23:18:18 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.soucedemo.ui.LoginTest@179ece50]" started-at="2025-12-08T22:58:59 IST" name="SetUp" finished-at="2025-12-08T22:59:03 IST" duration-ms="4045" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.soucedemo.ui.LoginTest@3d285d7e]" started-at="2025-12-08T23:18:18 IST" name="SetUp" finished-at="2025-12-08T23:18:20 IST" duration-ms="2416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="PageSetUP()[pri:0, instance:com.soucedemo.ui.LoginTest@179ece50]" started-at="2025-12-08T22:59:03 IST" name="PageSetUP" finished-at="2025-12-08T22:59:03 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="PageSetUP()[pri:0, instance:com.soucedemo.ui.LoginTest@3d285d7e]" started-at="2025-12-08T23:18:20 IST" name="PageSetUP" finished-at="2025-12-08T23:18:20 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageSetUP -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:com.soucedemo.ui.LoginTest@179ece50]" started-at="2025-12-08T22:59:03 IST" name="invalidLoginTest" finished-at="2025-12-08T22:59:04 IST" duration-ms="854" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.soucedemo.ui.LoginTest@3d285d7e]" started-at="2025-12-08T23:18:20 IST" name="invalidLoginTest" finished-at="2025-12-08T23:18:21 IST" duration-ms="706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.soucedemo.ui.LoginTest@179ece50]" started-at="2025-12-08T22:59:04 IST" name="tearDown" finished-at="2025-12-08T22:59:05 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.soucedemo.ui.LoginTest@3d285d7e]" started-at="2025-12-08T23:18:21 IST" name="tearDown" finished-at="2025-12-08T23:18:21 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

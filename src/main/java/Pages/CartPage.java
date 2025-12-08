@@ -29,7 +29,7 @@ public class CartPage extends waitUtils{
 	}
 	
 	public void clickCheckout() throws InterruptedException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(90));
+		waitUtils.clickability(checkout_button);
 		WebElement checkoutButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("checkout")));
 		checkoutButton.click();
 		/*
