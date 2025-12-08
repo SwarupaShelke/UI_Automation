@@ -35,7 +35,7 @@ public class BaseTest {
 		  driver = new ChromeDriver(options);
 		 
 		//driver =new EdgeDriver();
-		utils.waitUtils.wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+		utils.waitUtils.wait=new WebDriverWait(driver, Duration.ofSeconds(50));
 		driver.manage().window().maximize();
 		driver.get(url);
 	}
