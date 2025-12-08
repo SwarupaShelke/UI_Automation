@@ -1,5 +1,5 @@
 <suite name="POM Test Suite">
-    <test name="Sample Test">
+    <test name="E2E Test">
         <classes>
             <class name="com.soucedemo.ui.LoginTest"/>
         </classes>
