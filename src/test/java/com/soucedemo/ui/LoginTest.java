@@ -30,11 +30,11 @@ public class LoginTest extends BaseTest{
     
 	@BeforeMethod
 	public void PageSetUP() {
-		loginPage =new LoginPage(driver);
+		loginPage = new LoginPage(driver);
 		inventoryPage =new InventoryPage(driver);
-		cartPage =new CartPage(driver); 
-		userInformationPage = new UserInformationPage(driver);
-		checkoutSummaryPage = new CheckoutSummaryPage(driver);
+		cartPage= new CartPage(driver);
+		userInformationPage=new UserInformationPage(driver);
+		checkoutSummaryPage=new CheckoutSummaryPage(driver);
 	}
 	@Test
 	public void eneTest() throws InterruptedException{

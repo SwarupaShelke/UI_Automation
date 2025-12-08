@@ -7,10 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class UserInformationPage {
+import utils.waitUtils;
+
+public class UserInformationPage{
 	
 	WebDriver driver;
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	
 	By firstname =By.id("first-name");
 	By lastname =By.id("last-name");
@@ -19,27 +21,27 @@ public class UserInformationPage {
 	
 	
 	public UserInformationPage(WebDriver driver) {
-		this.driver = driver;
+		this.driver=driver;
 	}
 	
 	public void enterFirstName(String user) {
 		
-		wait.until(ExpectedConditions.visibilityOfElementLocated(firstname));
+		waitUtils.waitforElementToVisible(firstname);
 		driver.findElement(firstname).sendKeys("standard");
 	}
 	
 	public void enterlastName(String user) {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(lastname));
+		waitUtils.waitforElementToVisible(lastname);
 		driver.findElement(lastname).sendKeys("user");
 	}
 	
 	public void enterPostCode(String password) {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(postalcode));
+		waitUtils.waitforElementToVisible(postalcode);
 		driver.findElement(postalcode).sendKeys("411014");
 	}
 	
 	public void clickContinueButton() {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(continuebutton));
+		waitUtils.waitforElementToVisible(continuebutton);
 		driver.findElement(continuebutton).click();
 	}
 	
