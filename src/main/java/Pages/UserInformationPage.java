@@ -41,7 +41,7 @@ public class UserInformationPage{
 	}
 	
 	public void clickContinueButton() {
-		waitUtils.waitforElementToVisible(continuebutton);
+		waitUtils.clickability(continuebutton);
 		driver.findElement(continuebutton).click();
 	}
 	

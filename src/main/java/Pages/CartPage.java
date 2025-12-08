@@ -20,12 +20,12 @@ public class CartPage extends waitUtils{
 	}
 	
 	public void clickOnCartIcon() {
-		waitUtils.waitforElementToVisible(cart_Icon);
+		waitUtils.clickability(cart_Icon);
 		driver.findElement(cart_Icon).click();
 	}
 	
 	public void clickCheckout() {
-		waitUtils.waitforElementToVisible(checkout_button);
+		waitUtils.clickability(checkout_button);
 		driver.findElement(checkout_button).click();
 	}
 }

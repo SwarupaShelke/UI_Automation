@@ -19,7 +19,7 @@ public class CheckoutSummaryPage{
 
 		
 		public void clickFinishButton() {
-			waitUtils.waitforElementToVisible(finishButton);
+			waitUtils.clickability(finishButton);
 			driver.findElement(finishButton).click();
 		}
 		
