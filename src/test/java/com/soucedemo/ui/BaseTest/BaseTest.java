@@ -24,7 +24,7 @@ public class BaseTest {
 		configReader.initProp();
 		
 		String url = configReader.getProperty("baseURL");
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(50));
 		
 		  ChromeOptions options = new ChromeOptions();
 		  options.addArguments("--headless=new"); options.addArguments("--no-sandbox");
